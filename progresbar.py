@@ -1,16 +1,4 @@
-#grafica
- from tkinter import ttk
- from tkinter import *
-
- root = Tk()
-
- pb = ttk.Progressbar(root, orient="horizontal", length=200, mode="determinate")
- pb.pack()
- pb.start()
-
- root.mainloop()
-
-# en consola
+# progressbar en consola
 from tqdm import tqdm
 
 loop =tqdm(total = 5000,position = 0,leave = True)
